@@ -77,3 +77,74 @@ header {
 .banderogus-image {
   align-self: flex-end;
 }
+.gus-facts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 52px 0 72px 0;
+}
+.gus-title {
+  margin: 16px 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  color: #1B1D1F;
+}
+.gus-description {
+  width: 875px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1B1D1F;
+}
+.gus-facts-container {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+.gus-facts-item {
+  width: 33%;
+}
+.gus-fact-title {
+  margin: 12px 0 32px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1B1D1F;
+}
+.gus-fact-description {
+  font-weight: 400;
+  font-size: 16px;
+  width: 280px;
+  line-height: 24px;
+  color: #1B1D1F;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1170px;
+  margin-bottom: 72px;
+  padding: 72px 0;
+  background: linear-gradient(270deg, #D3EFFF 0%, #FFFFFF 100%);
+}
+.footer-title {
+  margin: 16px 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  color: #1B1D1F;
+}
+.footer-description {
+  width: 875px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1B1D1F;
+}
